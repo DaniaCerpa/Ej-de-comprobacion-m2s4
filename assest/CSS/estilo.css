@@ -61,10 +61,13 @@ body {
     }
 
 @media (min-width:751px) {
-    div {
-        width:100%;
+    body{display: inline-block;
+        font-size: 0%;
+        width:100vw;
         margin: 0%;
         padding: 0%;}
+
+    div {display: inline-block;}
     .rosado {display: block;
         width:100vw;
         height:6vh;
@@ -77,22 +80,18 @@ body {
         width:100vw;
         height:40vh;
         background-color:blue}
-    .rojo {display: inline-block;
-        margin: -2px;
-        width:33.45vw;
+    .rojo {
+        width:33.3vw;
         height:30vh;
         background-color: red;}
-    .morado{display: inline-block;
-        margin: -2px;
+    .morado{
         font-size: 0;
-        width:33.45vw;
+        width:33.3vw;
         height:30vh;
         background-color:purple;}
-    .gris {display: inline-block;
-        margin: -2px;
-        width:33.45vw;
+    .gris {
+        width:33.3vw;
         height:30vh;
         background-color:gray}  
     }
     
-
