@@ -1,0 +1,98 @@
+body {
+    display: inline-block;
+    margin: 0%;
+    height: 100%;
+    width: 100%;}
+
+
+
+
+
+/*Pantalla hasta 500 px*/
+
+
+@media (max-width:500px){
+    
+    div {display:block;
+        margin: 0%;
+        padding: 0%;}
+    .rosado {
+            height:25vh;
+            background-color: pink;}
+    .verde {
+            height:25vh;
+            background-color:green}
+    .azul {
+            height:12.5vh;
+            background-color:blue}
+    .gris {
+            height:37.5vh;
+            background-color:gray}
+    .morado {display:none;}    
+    
+    .rojo {display:none}   
+    }
+
+@media ((min-width: 501px) and (max-width: 750px)){
+
+    div {display:inline-block;
+        width:100%;
+        margin: 0%;
+        padding: 0%;}
+    .rosado {display: block;
+        width:100vw;
+        height:25vh;
+        background-color: pink;}
+    .verde {width:32.8vw;
+        height:25vh;
+        background-color:green}
+    .azul {width:32.8vw;
+        height:25vh;
+        background-color:blue}
+    .rojo {width:32.8vw;
+        height:25vh;
+        background-color: red;}
+    .morado{width:59vw;
+        height:50vh;
+        background-color:purple;}
+    .gris {width:40vw;
+        height:50vh;
+        background-color:gray}  
+    }
+
+@media (min-width:751px) {
+    div {
+        width:100%;
+        margin: 0%;
+        padding: 0%;}
+    .rosado {display: block;
+        width:100vw;
+        height:6vh;
+        background-color: pink;}
+    .verde {display: block;
+        width:100vw;
+        height:25vh;
+        background-color:green}
+    .azul {display: block;
+        width:100vw;
+        height:40vh;
+        background-color:blue}
+    .rojo {display: inline-block;
+        margin: -2px;
+        width:33.45vw;
+        height:30vh;
+        background-color: red;}
+    .morado{display: inline-block;
+        margin: -2px;
+        font-size: 0;
+        width:33.45vw;
+        height:30vh;
+        background-color:purple;}
+    .gris {display: inline-block;
+        margin: -2px;
+        width:33.45vw;
+        height:30vh;
+        background-color:gray}  
+    }
+    
+
