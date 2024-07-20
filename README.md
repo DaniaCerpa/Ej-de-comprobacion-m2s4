@@ -5,5 +5,7 @@ Sesión: 5
 Tarea tipo: Ejercicio de comprobación
 Version Bootstrap: v5.3.3
 Repositorio Github: https://github.com/DaniaCerpa/Ej-de-comprobacion-m2s6.git
+
 Clonar repositorio: git clone https://github.com/DaniaCerpa/Ej-de-comprobacion-m2s6.git
+
 Git-hub Pages: https://daniacerpa.github.io/Evaluacion-M2S6/
